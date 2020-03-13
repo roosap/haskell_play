@@ -22,4 +22,14 @@ allNumbers arr1 arr2 = arr1 ++ arr2
 hello = "hello"
 world = "world"
 
-helloWorld x y = x ++ y
+helloWorld x y = x ++ " " ++ y
+
+addIndexZero arr = 1:arr
+
+addIndexZeroAgain num arr = num:arr
+
+getElementByIndex arr i = arr !! i
+
+oneToOneHundred = [1..100]
+
+alphabet = ['a'..'z']
